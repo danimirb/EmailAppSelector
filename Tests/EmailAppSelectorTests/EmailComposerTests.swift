@@ -1,10 +1,10 @@
 import XCTest
-@testable import EmailComposer
+@testable import EmailAppSelector
 
-final class EmailComposerTests: XCTestCase {
+final class EmailAppSelectorTests: XCTestCase {
     
     func testExample() throws {
-        XCTAssertEqual(EmailComposer().text, "Hello, World!")
+        XCTAssertEqual(EmailAppSelector().text, "Hello, World!")
     }
     
     func test_getUrl_gmailApp() throws {
